@@ -3,14 +3,25 @@
 #include <pebble.h>
   
 static const uint8_t PLANET_COLORS[] = {
-  GColorPastelYellowARGB8,
-  GColorIcterineARGB8,
-  GColorCobaltBlueARGB8,
-  GColorDarkCandyAppleRedARGB8,
-  GColorWindsorTanARGB8,
-  GColorPastelYellowARGB8,
+  GColorWhiteARGB8,
+  GColorOrangeARGB8,
+  GColorBlueMoonARGB8,
+  GColorRedARGB8,
+  GColorChromeYellowARGB8,
   GColorLightGrayARGB8,
-  GColorBlueMoonARGB8
+  GColorJaegerGreenARGB8,
+  GColorIndigoARGB8
+};
+
+static const uint8_t PLANET_SIZES[] = {
+  2,
+  3,
+  3,
+  2,
+  5,
+  5,
+  4,
+  4
 };
 
 static const int N_PLANETS = 8;
